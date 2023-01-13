@@ -10,8 +10,8 @@ export const experienceData = [
         id: 2,
         company: 'Bright Money',
         jobtitle: 'Software Engineer 1',
-        startYear: '2021',
-        endYear: '2020'
+        startYear: '2020',
+        endYear: '2021'
     },
     {
         id: 3,
