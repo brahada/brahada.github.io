@@ -8,11 +8,10 @@ const getRows = (courses) => courses.sort((a, b) => {
   if (a.number < b.number) ret = 1;
   else if (a.number > b.number) ret = -1;
   return ret;
-}).map((course, idx) => (
+}).map((course) => (
   <Course
     data={course}
     key={course.title}
-    last={idx === courses.length - 1}
   />
 ));
 

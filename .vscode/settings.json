@@ -1,10 +1,17 @@
 {
+    "eslint.format.enable": true,
     "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
-    "editor.formatOnPaste": false, 
-    "editor.formatOnType": false, 
+    "editor.formatOnPaste": true, 
+    "editor.formatOnType": true, 
     "editor.formatOnSave": true, 
     "editor.formatOnSaveMode": "file", 
-    "files.autoSave": "onFocusChange", 
-    "vs-code-prettier-eslint.prettierLast": "false",
-    "eslint.enable": true
+    "files.autoSave": "off", 
+    "vs-code-prettier-eslint.prettierLast": true,
+    "eslint.enable": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "eslint.validate": ["javascript"],
+    "eslint.workingDirectories": [{ "mode": "auto" }]
+
 }
